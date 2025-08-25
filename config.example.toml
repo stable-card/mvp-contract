@@ -1,0 +1,19 @@
+# Example configuration for deploying Flex-Perks contracts.
+# Copy this file to config.toml and fill in your actual values.
+# DO NOT COMMIT config.toml to version control.
+
+[kaia]
+# Kaia Mainnet RPC URL
+rpc_url = "https://public-en-cypress.klaytn.net"
+# Your private key for deployment (without the '0x' prefix)
+private_key = "YOUR_PRIVATE_KEY_HERE"
+# Etherscan (Klaytnscope) API key for contract verification
+etherscan_api_key = "YOUR_KLAYTNSCOPE_API_KEY_HERE"
+
+[kaia_testnet]
+# Kaia Testnet (Baobab) RPC URL
+rpc_url = "https://public-en-baobab.klaytn.net"
+# Your private key for deployment (without the '0x' prefix)
+private_key = "YOUR_PRIVATE_KEY_HERE_FOR_TESTNET"
+# Etherscan (Klaytnscope) API key for contract verification
+etherscan_api_key = "YOUR_KLAYTNSCOPE_API_KEY_HERE"
