@@ -108,10 +108,10 @@ make test
 ### 배포
 
 ```bash
-# Kaia 테스트넷(Baobab)에 배포
+# Kaia 테스트넷에 배포
 make deploy-testnet
 
-# Kaia 메인넷(Cypress)에 배포
+# Kaia 메인넷에 배포
 make deploy-mainnet
 ```
 
